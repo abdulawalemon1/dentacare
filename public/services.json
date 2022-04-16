@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Cosmetic Dentistry",
+        "price": "40000",
+        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+    },
+    {
+        "id": 2,
+        "name": "Cosmetic Dentistry",
+        "price": "40000",
+        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+    },
+    {
+        "id": 3,
+        "name": "Cosmetic Dentistry",
+        "price": "40000",
+        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Cosmetic Dentistry",
+        "price": "40000",
+        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Cosmetic Dentistry",
+        "price": "40000",
+        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Cosmetic Dentistry",
+        "price": "40000",
+        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+    }
+]
