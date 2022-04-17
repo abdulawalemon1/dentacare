@@ -1,6 +1,6 @@
 import { signOut } from 'firebase/auth';
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import logo from '../../../images/logo.png';
@@ -18,7 +18,7 @@ const Header = () => {
             <Navbar collapseOnSelect expand="lg" sticky='top' bg="light" variant="primary">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
-                        <img height={50} src={logo} alt="" />
+                        <img height={30} src={logo} alt="" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
