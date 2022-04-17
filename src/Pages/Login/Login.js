@@ -4,6 +4,9 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import SocialLogin from './SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -12,7 +15,7 @@ const Login = () => {
 
 
     const location = useLocation();
-    let from = location.state?.from?.pathname || "/checkout";
+    let from = location.state?.from?.pathname || "/";
 
 
     const [
@@ -49,8 +52,12 @@ const Login = () => {
     }
     const resetPassword = async () => {
         const email = emailRef.current.value;
-        await sendPasswordResetEmail(email)
-        alert('Sent email');
+        if (email) {
+            await sendPasswordResetEmail(email)
+            toast('Sent email');
+        } else {
+            toast('Please enter your email!')
+        }
     }
     return (
         <div className='container w-50 mx-auto'>
@@ -71,15 +78,14 @@ const Login = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
+
                 <Button className='w-100 d-block mx-auto' variant="secondary" type="submit">
                     Login
                 </Button>
             </Form>
             <p className='text-center mt-2'>New to DentaCare? <Link to={"/register"} className='text-primary text-decoration-none' onClick={navigateRegister}>Please Sign Up</Link></p>
-            <p className='text-center mt-2'>Forget Password? <Link to={"/register"} className='text-primary text-decoration-none' onClick={resetPassword}>Reset Password</Link></p>
+            <p className='text-center mt-2'>Forget Password? <button to={"/register"} className='text-primary bg-light text-decoration-none border-0' onClick={resetPassword}>Reset Password</button></p>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
