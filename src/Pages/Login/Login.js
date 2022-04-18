@@ -18,7 +18,6 @@ const Login = () => {
     const location = useLocation();
     let from = location.state?.from?.pathname || "/";
 
-    const [user1, loading1, error2] = useAuthState(auth);
 
 
     const [
@@ -31,29 +30,24 @@ const Login = () => {
     const [sendPasswordResetEmail, sending, error1] = useSendPasswordResetEmail(
         auth
     );
-
-
-
-
-
-
+    let errorElement;
+    if (error || error1) {
+        errorElement = <p className='text-danger text-center'> {error?.message}{error1?.message}</p>
+    }
     if (user) {
         navigate(from, { replace: true });
 
     }
+
+
     const handleSubmit = event => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
         signInWithEmailAndPassword(email, password);
-        if (!user1) {
-            setErrors('Email and Password didnt match!')
-            return;
-
-        }
-
 
     }
+
     const navigateRegister = event => {
         navigate('/register')
     }
@@ -72,7 +66,7 @@ const Login = () => {
             <h2 className='text-center mt-3 primaryColor'>Login</h2>
 
             <SocialLogin></SocialLogin>
-
+            {errorElement}
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
@@ -93,6 +87,7 @@ const Login = () => {
             <p className='text-center mt-2'>New to DentaCare? <Link to={"/register"} className='primaryColor text-decoration-none' onClick={navigateRegister}>Please Sign Up</Link></p>
             <p className='text-center mt-2'>Forget Password? <button to={"/register"} className='primaryColor bg-light text-decoration-none border-0' onClick={resetPassword}>Reset Password</button></p>
             <ToastContainer></ToastContainer>
+
         </div>
     );
 };

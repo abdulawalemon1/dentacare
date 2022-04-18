@@ -4,6 +4,8 @@ import './Footer.css';
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillInstagram, AiFillYoutube } from 'react-icons/ai';
 const Footer = () => {
+    const today = new Date();
+    const year = today.getFullYear();
     return (
         <footer className='footer'>
             <div className='d-flex justify-content-center align-items-center'>
@@ -11,17 +13,17 @@ const Footer = () => {
                 <h2>DentaCare</h2>
             </div>
             <div className='d-flex justify-content-center align-items-center'>
-                <p><small>copyright @ /dynamic year/</small></p>
+                <p><small>copyright &copy;{year}</small></p>
 
             </div>
             <div className='icons'>
-                <div className='d-flex justify-content-center'>
+                <div className=''>
                     <BsFacebook></BsFacebook>
                 </div>
-                <div className='d-flex justify-content-center'>
+                <div className=' '>
                     <AiFillInstagram></AiFillInstagram>
                 </div>
-                <div className='d-flex justify-content-center'>
+                <div className=' '>
                     <AiFillYoutube></AiFillYoutube>
                 </div>
             </div>

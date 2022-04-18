@@ -41,7 +41,7 @@ const Register = () => {
 
     return (
         <div className='container w-50 mx-auto'>
-            <h2 className='text-center text-primary'>Sign Up</h2>
+            <h2 className='text-center primaryColor'>Sign Up</h2>
             <Form onSubmit={handleRegister}>
                 <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Name</Form.Label>
@@ -62,7 +62,7 @@ const Register = () => {
                     <Form.Control type="password" name='password' placeholder="Password" required />
                 </Form.Group>
 
-                <Button className='w-100' variant="primary" type="submit">
+                <Button className='w-100 button-29 border-0 text-light fw-bold fs-5' variant="" type="submit">
                     Sign Up
                 </Button>
             </Form>

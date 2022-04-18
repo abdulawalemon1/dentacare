@@ -11,10 +11,10 @@ footer {
 }
 
 .icons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
     justify-content: center;
-    align-items: center;
 
 }
 

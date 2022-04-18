@@ -11,17 +11,13 @@
     padding-bottom: 60px;
     padding-left: 83px;
     background-color: #33B9CB;
-
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    width: 100%;
-
+    width: 90%;
     top: -90px;
-
     margin-left: auto;
     margin-right: auto;
     left: 0;
