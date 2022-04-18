@@ -1,9 +1,9 @@
 import React from 'react';
-
+import errorPage from '../../../images/error404.jpg';
 const Notfound = () => {
     return (
         <div>
-            <h2>Page not found!!</h2>
+            <img className='img-fluid' src={errorPage} alt="" />
         </div>
     );
 };
