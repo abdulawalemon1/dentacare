@@ -34,10 +34,7 @@ const Login = () => {
 
 
 
-    let errorElement;
-    if (error) {
-        errorElement = <p className='text-danger text-center'> Error:{error?.message}</p>
-    }
+
 
     if (user) {
         navigate(from, { replace: true });
@@ -51,6 +48,7 @@ const Login = () => {
         if (!user1) {
             setErrors('Email and Password didnt match!')
             return;
+
         }
 
 
@@ -70,7 +68,7 @@ const Login = () => {
 
     return (
         <div className='container w-50 mx-auto'>
-            <h2 className='text-primary text-center mt-3'>Login</h2>
+            <h2 className='text-success text-center mt-3'>Login</h2>
 
             <SocialLogin></SocialLogin>
 
