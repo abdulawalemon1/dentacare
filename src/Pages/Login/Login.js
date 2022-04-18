@@ -81,7 +81,7 @@ const Login = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
 
-                <Button className='w-100 d-block mx-auto' variant="secondary" type="submit">
+                <Button className='w-100 d-block mx-auto' variant="success" type="submit">
                     Login
                 </Button>
             </Form>
