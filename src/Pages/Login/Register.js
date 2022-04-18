@@ -18,9 +18,9 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
-    const [sendEmailVerification, sending1, error1] = useSendEmailVerification(auth);
+
 
     const navigateLogin = event => {
         navigate('/login');
@@ -35,27 +35,6 @@ const Register = () => {
         const email = event.target.email.value;
         const password = event.target.password.value;
         createUserWithEmailAndPassword(email, password);
-    }
-    const SendEmailVerification = async () => {
-        // const email = event.target.email.value;
-        const email = emailRef.current.value;
-
-
-        if (error1 || error) {
-            return (
-                <div>
-                    <p>Error: {error1?.message}{error?.message}</p>
-                </div>
-            );
-        }
-        if (sending1) {
-            return <p>Sending...</p>;
-        }
-        if (email) {
-            console.log(email)
-            await sendEmailVerification();
-            toast('Please check your email inbox');
-        }
     }
 
 
@@ -75,10 +54,7 @@ const Register = () => {
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
-                    <div className='text-end'>
 
-                        <Button onClick={SendEmailVerification}>Verify Email</Button>
-                    </div>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
