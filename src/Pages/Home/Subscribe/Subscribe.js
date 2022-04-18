@@ -14,15 +14,15 @@ const Subscribe = () => {
                 </div>
                 <div className='lower-section'>
 
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 ">
-                                <div class="">
-                                    <div class="">
-                                        <div class="">
-                                            <div class="card1">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-3 col-md-6 ">
+                                <div className="">
+                                    <div className="">
+                                        <div className="">
+                                            <div className="card1">
                                                 <h2>Contact Us</h2>
-                                                <ul class="">
+                                                <ul className="">
                                                     <li>
 
                                                         <p>66 Momenbag, Chittagong<br />Bangladesh</p>
@@ -42,13 +42,13 @@ const Subscribe = () => {
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-md-6 ">
-                                <div class="">
-                                    <div class="">
-                                        <div class="">
-                                            <div class="card2">
+                            <div className="col-lg-3 col-md-6 ">
+                                <div className="">
+                                    <div className="">
+                                        <div className="">
+                                            <div className="card2">
                                                 <h2>Useful Link</h2>
-                                                <ul class="">
+                                                <ul className="">
                                                     <li>
 
                                                         <p>About Us</p>
@@ -68,11 +68,11 @@ const Subscribe = () => {
                                 </div>
                             </div>
 
-                            <div class="col-lg-3 col-md-6 ">
+                            <div className="col-lg-3 col-md-6 ">
 
-                                <div class="card1">
+                                <div className="card1">
                                     <h2>Recent Post</h2>
-                                    <ul class="">
+                                    <ul className="">
                                         <li>
 
                                             <p>Creating healthy tomorrow ...</p>
@@ -90,11 +90,11 @@ const Subscribe = () => {
 
                             </div>
 
-                            <div class="col-lg-3 col-md-6 ">
+                            <div className="col-lg-3 col-md-6 ">
 
-                                <div class="card2">
+                                <div className="card2">
                                     <h2>More Services</h2>
-                                    <ul class="">
+                                    <ul className="">
                                         <li>
 
                                             <p>Childcare</p>

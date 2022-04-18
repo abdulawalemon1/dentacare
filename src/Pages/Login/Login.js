@@ -25,15 +25,16 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
-
-    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
+    const [sendPasswordResetEmail, sending, error1] = useSendPasswordResetEmail(
         auth
     );
 
 
+
+
     let errorElement;
     if (error) {
-        errorElement = <p className='text-danger'> Error:{error?.message}</p>
+        errorElement = <p className='text-danger text-center'> Error:{error?.message}</p>
     }
 
     if (user) {
@@ -59,6 +60,7 @@ const Login = () => {
             toast('Please enter your email!')
         }
     }
+
     return (
         <div className='container w-50 mx-auto'>
             <h2 className='text-primary text-center mt-3'>Login</h2>
