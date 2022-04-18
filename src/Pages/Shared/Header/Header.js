@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <div className='sticky-top'>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="primary">
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                 <Container>
                     <Navbar.Brand as={Link} to="/" className='d-flex align-items-center'>
                         <img style={{ height: '80px' }} src={logo} alt="" />
@@ -26,11 +26,12 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link bg="primary" href="home#services">Services</Nav.Link>
-                            <Nav.Link href="home#blogs">Blogs</Nav.Link>
+                            <Nav.Link href="home#subscribe">Subscribe</Nav.Link>
 
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="about">About</Nav.Link>
+                            <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                             {
                                 user ? <button onClick={handleSignOut} className='btn btn-primary'>Sign Out</button> : <Nav.Link as={Link} to="login">Login</Nav.Link>
                             }

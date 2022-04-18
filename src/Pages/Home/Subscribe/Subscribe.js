@@ -2,7 +2,7 @@ import React from 'react';
 import './Subscribe.css';
 const Subscribe = () => {
     return (
-        <div className="section">
+        <div id='subscribe' className="section">
             <div className='section-container mt-5'>
                 <div className='subscribe-container'>
                     <div className='sub-text'>
