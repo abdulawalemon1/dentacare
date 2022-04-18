@@ -5,6 +5,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import SocialLogin from './SocialLogin/SocialLogin';
 import { ToastContainer, toast } from 'react-toastify';
+import './Login.css';
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -68,7 +69,7 @@ const Login = () => {
 
     return (
         <div className='container w-50 mx-auto'>
-            <h2 className='text-success text-center mt-3'>Login</h2>
+            <h2 className='text-center mt-3 primaryColor'>Login</h2>
 
             <SocialLogin></SocialLogin>
 
@@ -84,13 +85,13 @@ const Login = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
                 <p className='text-danger text-center'>{errors}</p>
-                <Button className='w-100 d-block mx-auto' variant="success" type="submit">
+                <Button className='w-100 d-block mx-auto button-30 text-center' variant="" type="submit">
                     Login
                 </Button>
 
             </Form>
-            <p className='text-center mt-2'>New to DentaCare? <Link to={"/register"} className='text-primary text-decoration-none' onClick={navigateRegister}>Please Sign Up</Link></p>
-            <p className='text-center mt-2'>Forget Password? <button to={"/register"} className='text-primary bg-light text-decoration-none border-0' onClick={resetPassword}>Reset Password</button></p>
+            <p className='text-center mt-2'>New to DentaCare? <Link to={"/register"} className='primaryColor text-decoration-none' onClick={navigateRegister}>Please Sign Up</Link></p>
+            <p className='text-center mt-2'>Forget Password? <button to={"/register"} className='primaryColor bg-light text-decoration-none border-0' onClick={resetPassword}>Reset Password</button></p>
             <ToastContainer></ToastContainer>
         </div>
     );

@@ -4,6 +4,7 @@ import github from '../../../images/github.png';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import { useLocation, useNavigate } from 'react-router-dom';
+import './SocialLogin.css';
 const SocialLogin = () => {
 
 
@@ -31,21 +32,21 @@ const SocialLogin = () => {
             <div className='d-flex justify-content-center align-items-center'>
                 <button
                     onClick={() => signInWithGoogle()}
-                    className='btn btn-success  me-3'>
+                    className='btn button-30  me-3'>
                     <img style={{ width: '30px' }} src={google} alt="" />
                     <span className='px-2'>Google Sign In</span>
                 </button>
                 <button
                     onClick={() => signInWithGithub()}
-                    className='btn btn-success  '>
+                    className='btn button-30  '>
                     <img style={{ width: '30px' }} src={github} alt="" />
                     <span className='px-2'>Github Login</span>
                 </button>
             </div>
             <div className='d-flex align-items-center'>
-                <div style={{ height: '1px' }} className='bg-success w-50'></div>
+                <div style={{ height: '1px' }} className='bg-primary w-50'></div>
                 <p className='mt-2 px-2'>or</p>
-                <div style={{ height: '1px' }} className='bg-success w-50'></div>
+                <div style={{ height: '1px' }} className='bg-primary w-50'></div>
             </div>
             {errorElement}
         </div>

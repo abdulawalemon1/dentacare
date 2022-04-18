@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Cosmetic Dentistry",
-        "price": "40000",
-        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
+        "name": "General",
+        "price": "$10000",
+        "description": "Everything you expect and then some. Cleanings, fillings, and x-rays are just the beginning.",
         "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
     },
     {
         "id": 2,
         "name": "Cosmetic Dentistry",
-        "price": "40000",
-        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
-        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+        "price": "$25000",
+        "description": "Discover your “wow!” factor. Invisalign, veneers, and in-office or take-home teeth whitening.",
+        "img": "https://img.freepik.com/free-photo/young-female-patient-visiting-dentist-office_496169-930.jpg?w=740&t=st=1650292650~exp=1650293250~hmac=b945a3aec25c1e7efe060c37deed927def0d55fc8affecbebacdd262b9f061c4"
     },
     {
         "id": 3,
-        "name": "Cosmetic Dentistry",
-        "price": "40000",
-        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
-        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+        "name": "Surgical Dentistry",
+        "price": "$40000",
+        "description": "We can fix anything. Our dentists repair damaged or lost teeth with cutting-edge implants and more.",
+        "img": "https://img.freepik.com/free-photo/woman-patient-dentist_1303-9365.jpg?w=740&t=st=1650292775~exp=1650293375~hmac=9f13b0c78aee336537190f10538c37420d33675943beb7386646f23b06df69ed"
     },
     {
         "id": 4,
-        "name": "Cosmetic Dentistry",
-        "price": "40000",
-        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
-        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+        "name": "Child Teeth Care",
+        "price": "$5000",
+        "description": "Regular child treatment from simple to complex cases",
+        "img": "https://img.freepik.com/free-photo/little-boy-patient-dentist_1303-24386.jpg?w=740&t=st=1650292821~exp=1650293421~hmac=da9b85facf435cc06b6925afbe2bbdfb3915bf2c18c04dc156f4e751b65c1cc2"
     },
     {
         "id": 5,
-        "name": "Cosmetic Dentistry",
-        "price": "40000",
-        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
-        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+        "name": "Implants",
+        "price": "$12000",
+        "description": "Been an Expert in implanting teeth of any age",
+        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-20952.jpg?w=740&t=st=1650292912~exp=1650293512~hmac=dd3e50055fc795aa43b9b40ea9819c782defa688af1f440b5c0a990a0ec8ea12"
     },
     {
         "id": 6,
-        "name": "Cosmetic Dentistry",
-        "price": "40000",
-        "description": "lorem ipsum dolor sit anet sdf sdjsdf sdfkjk sdfjj fglkll ehfe sdf",
-        "img": "https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-21014.jpg?t=st=1650133568~exp=1650134168~hmac=8ec488c9327533907fe7514ca5933e9155b034f75e8d27b886af77104fc1b171&w=740"
+        "name": "Braces",
+        "price": "$85000",
+        "description": "Fixing any kind of complex teeth position with braces for lifetime",
+        "img": "https://img.freepik.com/free-photo/beautiful-young-woman-with-teeth-braces_155003-10309.jpg?w=740&t=st=1650292995~exp=1650293595~hmac=c01347f69c5d1b8900185757846719430cd76dfa1d7080ac2a4ddfd82c78cd4d"
     }
 ]

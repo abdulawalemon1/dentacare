@@ -14,10 +14,10 @@ const Service = ({ service }) => {
             <div className="cardBox">
                 <img src={img} className="card-img-top" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
+                    <h2 className="card-title">{name}</h2>
                     <h4 className="card-title">Price: {price}</h4>
                     <p className="card-text">{description}</p>
-                    <button onClick={navigateCheckout} className='btn btn-primary'>Book Now</button>
+                    <button onClick={navigateCheckout} className='button-29 '>Book Now</button>
                 </div>
             </div>
         </div>

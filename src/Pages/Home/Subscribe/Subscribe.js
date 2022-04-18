@@ -21,7 +21,7 @@ const Subscribe = () => {
                                     <div className="">
                                         <div className="">
                                             <div className="card1">
-                                                <h2>Contact Us</h2>
+                                                <h2>Contact</h2>
                                                 <ul className="">
                                                     <li>
 
@@ -51,7 +51,7 @@ const Subscribe = () => {
                                                 <ul className="">
                                                     <li>
 
-                                                        <p>About Us</p>
+                                                        <p>About Me</p>
                                                     </li>
                                                     <li>
 
