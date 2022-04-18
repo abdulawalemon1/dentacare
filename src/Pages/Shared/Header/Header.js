@@ -15,11 +15,12 @@ const Header = () => {
     }
 
     return (
-        <div>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="light" variant="primary">
+        <div className='sticky-top'>
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="primary">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">
-                        <img height={30} src={logo} alt="" />
+                    <Navbar.Brand as={Link} to="/" className='d-flex align-items-center'>
+                        <img style={{ height: '80px' }} src={logo} alt="" />
+                        <h2>DentaCare</h2>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
